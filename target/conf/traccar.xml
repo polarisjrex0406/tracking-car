@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE properties SYSTEM 'http://java.sun.com/dtd/properties.dtd'>
+<properties>
+
+    <entry key='config.default'>./setup/default.xml</entry>
+
+    <entry key='web.path'>./modern</entry>
+    <entry key='web.debug'>true</entry>
+    <entry key='web.console'>true</entry>
+
+<!--    <entry key='geocoder.type'>pluscodes</entry>-->
+    <entry key='geocoder.type'>test</entry>
+
+    <entry key='media.path'>./target/media</entry>
+
+    <entry key='logger.console'>true</entry>
+    <entry key='logger.queries'>false</entry>
+    <entry key='logger.fullStackTraces'>true</entry>
+
+    <entry key='mail.debug'>true</entry>
+
+    <entry key='database.driver'>com.mysql.jdbc.Driver</entry>
+    <entry key='database.url'>jdbc:mysql://127.0.0.1:3306/traccar</entry>
+    <entry key='database.user'>root</entry>
+    <entry key='database.password'></entry>
+
+    <!--<entry key='server.instantAcknowledgement'>true</entry>
+    <entry key='server.buffering.threshold'>5000</entry>-->
+
+    <entry key='atrack.custom'>true</entry>
+    <entry key='intellitrac.port'>6037</entry>
+    <entry key="notificator.firebase.serviceAccount">
+        {
+        "type": "service_account",
+        "project_id": "ciblie",
+        "private_key_id": "360c962b543185c4fa83a1d28da6a0f3f10d7c0b",
+        "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDc2xP2u4QsPr/e\njSG1E9jiX+dVK1Jbj1IyBqFv4OMjeuUxUrrNSQ+lJUkx8P/x42L+WdcR7Sx2H3G4\nJGb34XzO5kF6AxTY31v0A7Ycb2KY7RSATPEZCc7uK1qXpwGjFDK30r5L3Dx0act5\n4b/ZE9uQwb4aMl1AQDGsxgsSaWzICLG6TlqtysOvEgOpIGD2VOIGHqrkXM3DBNT6\nnCBeWsEZGexYQMprGNN1i9mUD9JvpeT3vpc2rUfkIRcr8aHGeN4GJbqE9gPbKUV3\nIBdbXgnHhB64gY4N4CukeM+0vqLsdGo4OTeaQaBwlQTshLFaLaniFgql4ftwCu8J\nF1CsK71PAgMBAAECggEAAicumb3e1+THgqtpWml2a7dX1LHThgOVLECtS584VHNR\nXBQ8fV2kRedhppd8+N/PHYyrQ8gsohaQ/L5G5+a7Jg2cZZlosOtbuAeRoga7jtZM\n2Con2/Pt02hfymrjexjQz8L05CqiLXGOMFxKvjQeQVodXzloRR6UsJfNQ6Fi4P/t\np09yXKe+gBX+POlrSr1y4vif5T7adwPJBxbOl++FhtbLD1VQmWUoSzuFue4SvEwN\nxRzHO6HxHPLd5UyZu4tj7KPqDViGUIJcQXo8AqUffBRN5FkHfKXcN1mjXHAbebQA\ne0oZ0yHjGM6hye69a7e1euvgNys8UyMbBllIjdLENQKBgQD87H6CcszMBDLrbqKA\nVKh0PaQRSFmZriWjjBbw2bSNrH9CpI/1+tMkgh9BYzF3Vyu3qWfVcrpDHxIhCquV\nhORdhHYlZ52Wdm7wsOygBKSU1IvwI0kzY6wh8tJrxnrfihrpDgNBODDkXn5WaolR\nha46uj1zav/84UU83Cb+9h9k1QKBgQDfiryK5ZATixl3JlBwGC5SSbJPIiS8piQ2\n+LQxgSg9TAUql8XaXWCIsGwrlVJJ9ULQo+gby7uVyGRpGecIJq9Hy/+F3UjbP6yZ\n/4DiVLUoViTzTNjlbrjha6r+Z+LpU0C1QgTK0JxSptpMrHvGEBF8ckWF8UF7JImb\nopPhEyj7kwKBgBdJZvR3wWdfU5jdnNSX9tKNAlgdAzLlF84RDeOrB7arlSP7ps2N\nBHeuC1an3VwRiJLmZAsA/ylC6RZltxqTG7uIgKA9BANgcCJ1B7RL+SNC1oeLmCfF\nG4oco0cNBS8jtgqTIbWViNrd4F/weygoWLxLfXDs/xi3XPqXgnejDYzpAoGAHhIb\nqtOWvgpIMq8Eww99q7QeOGbvajEvTfXGx6IIN7ayOziPdQB6q+iPpI1BtJE5m7dw\n0cxmP4/lcf36Bi6uBYp7pRZPZq76GP016Txb4kE0V0ZPJw3t8OT6654t+BUq7zci\nTeYiITwwwX+yZsJil8sHby01Ecuodzc3jV92c+ECgYBAZgFoz8i+8pyTJ7Td+f/Z\n0JpqBOgTBGClZg4hshOm4On7ZrFPhnIToLd72xI8W5scrfLthri1LQ/CThZbGKPb\nhAEphmXLxJlBYF9GglKnwVdD8p3fr1pXtEm87PavLQrb/ABGj63lDaD6jEJj/E6d\nqu0upmCdyvSfSNMqYBpIug==\n-----END PRIVATE KEY-----\n",
+        "client_email": "firebase-adminsdk-6vxzz@ciblie.iam.gserviceaccount.com",
+        "client_id": "113462554548613833146",
+        "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+        "token_uri": "https://oauth2.googleapis.com/token",
+        "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+        "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-6vxzz%40ciblie.iam.gserviceaccount.com",
+        "universe_domain": "googleapis.com"
+        }</entry>
+
+</properties>

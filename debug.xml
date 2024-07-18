@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE properties SYSTEM 'http://java.sun.com/dtd/properties.dtd'>
+<properties>
+
+    <entry key='config.default'>./setup/default.xml</entry>
+
+    <entry key='web.path'>./traccar-web/web</entry>
+    <entry key='web.debug'>true</entry>
+    <entry key='web.console'>true</entry>
+
+<!--    <entry key='geocoder.type'>pluscodes</entry>-->
+    <entry key='geocoder.onRequest'>true</entry>
+    <entry key='geocoder.ignorePositions'>true</entry>
+    <entry key='status.timeout'>20</entry>
+    <entry key='geocoder.reuseDistance'>100</entry>
+
+    <entry key='media.path'>./media</entry>
+
+    <entry key='logger.console'>true</entry>
+    <entry key='logger.queries'>false</entry>
+    <entry key='logger.fullStackTraces'>true</entry>
+    <entry key='report.trip.minimalTripDuration'>0</entry>
+    <entry key='report.trip.minimalParkingDuration'>20</entry>
+    <entry key='report.trip.minimalNoDataDuration'>300</entry>
+    <entry key='report.trip.useIgnition'>true</entry>
+
+
+    <entry key='mail.debug'>true</entry>
+
+<!--    <entry key='database.driver'>com.mysql.jdbc.Driver</entry>-->
+<!--    <entry key='database.url'>jdbc:mysql://134.122.96.221/movo?zeroDateTimeBehavior=round&amp;serverTimezone=UTC&amp;allowPublicKeyRetrieval=true&amp;useSSL=false&amp;allowMultiQueries=true&amp;autoReconnect=true&amp;useUnicode=yes&amp;characterEncoding=UTF-8&amp;sessionVariables=sql_mode=''</entry>-->
+<!--    <entry key='database.user'>ivan</entry>-->
+<!--    <entry key='database.password'>ivan</entry>-->
+
+    <entry key='database.driver'>com.mysql.jdbc.Driver</entry>
+    <entry key='database.url'>jdbc:mysql://localhost:3306/traccar</entry>
+    <entry key='database.user'>root</entry>
+    <entry key='database.password'></entry>
+    <!--<entry key='server.instantAcknowledgement'>true</entry>
+    <entry key='server.buffering.threshold'>5000</entry>-->
+
+    <entry key='atrack.custom'>true</entry>
+    <entry key='intellitrac.port'>6037</entry>
+
+    <entry key='notificator.types'>web,mail,command,firebase</entry>
+    <entry key="notificator.firebase.serviceAccount">
+        {
+        "type": "service_account",
+        "project_id": "movo-2024",
+        "private_key_id": "6e35c4b726b769197ceb97d710c220158a6a7a3b",
+        "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDjflokGLAibMJu\n7kth1UjkE81JgLcrIiU537/XV67CcKXCh1tfY+ROD/2Ga/ouuXom3q3lCM0TFRiC\nq0yVhNgTynju9cpi5QTJEsDcRmw/LqOzthju+tMvPUI1wVs57o1DaDuKovCXYTpH\nCsaTnYyTwRki5dK+zANc/0JUujPKSbyFpprdx5FtV05ORBIoa8O0CrDl1HeJOaT1\npnhWOeWQaWd/lhLjoj66EF5RS9A0JDfRao0A5Q+u/B3bokfBo0dUL7LpFHtQSRqJ\nd6UTxQXzvr7a6I7ybwVVto1iqtmQIHkktOePQTBObYEld89KqrpcMYvISXFs5MIG\nomJyRhvJAgMBAAECggEAEajF7TYQENFfKSaiVLkubACwLNvVsX7NuPe0zU3nKPzU\nQTd/UPZQy1EpHagqxuRq+7LJeOqn+1U7OS7Rm8Gw1vMeqXNhqdpGoX0tL2w1YZTd\n7Ei0bXNXCrxh9Aj1wJd+ARTe77IaTwX4dM9R/t96AXY53KBOgwpp2xbi2po3BFAe\nNMwoe5OUP9nR7k8bPSXdzgC5ySMFLkA5G3/iEc3nC6g1c2ipBV5OVza+LqapSG7h\nCXLN77qkXh+MWyAnplYw2y2sASnrchPcL79a4YuqZRlQL+MeC+dwKr122eWqUU/Y\nbGJ3nlwlDxtFz3Wuetv0K8jkQqIJ5aZc+wUDzvYwoQKBgQDxp1JyjLon+lixGRfi\nUMVOcJPMJxP5VZEqJIiMt/s4DtackqE6SIeO2JYOXTiMRABgQPNF3aGyPpOIWC5c\nUSvigdZWa9UVGvkiFBvtA2O2PbHCr2HbpvVpq9rkfIh2Uf1EpGhMA06LtTh444hu\n0yRXHcBceCacjAKpdIUhCBXxTQKBgQDw/9MAteSGw8XuFXw4WcInX4RSuGeK/IlH\niXGCMcmfK4dDg5yyDvopJSfIWhV7muvpZSF2Cy45rDG1wIzoMax5DIb1sQxxlLj1\n5SCtc4TGIOFXoHlI5fP8PMfR/jqZGqt0S/Q+YKZrRSeABLQAQmXLfR9LHTrKj8Cm\nrMjgMhjWbQKBgQDp5jStX31H+M8kC8/MZLW1qM3FywVQTvxFODtbSTFGH0anIl4g\nFdfv8b+8g4qaaa+bewJ9W3qJFnyiegfVn1PE2DtoRtNmrEb8L06gaKl42dpXQH6N\nptrfv1IN2mQTcmScri2tdX3vSCczC7kg3AnOsKNiXYGyAOsKrhe10ye5+QKBgHR6\ngMX4I7KKzpAqrDYkE7Wp8a91Vv4S3lrH8CeH3rXieObFpqdcm8XlIlwwRe/OybSt\nX0XJU5cmRYRdwvy6fWyoBFadMrF2uwqFqoyKp6KG48LRWa1FDu5bhgxVfobfH/z+\ndNbtKaHw841pOIJjlQWLvOM2BmM+pVMpcZECRYTlAoGAQigobZo1IfJ8Ve3LN0uG\n318QbuNOjOy2jJf5T5fvPDf3gDZjphlRJXuqxyuiw3bITsRe7EobGsrzQ/lq+uI4\ntSX7aB/IOYsvnvv8dlvQiXJWUW/hHsNLuwLhlhmXd22N8mwHEGoTV6oGaSqjdiwq\nYGTbRMnmjJJWqoP/Vcaao68=\n-----END PRIVATE KEY-----\n",
+        "client_email": "firebase-adminsdk-i9zjv@movo-2024.iam.gserviceaccount.com",
+        "client_id": "112355221549974339894",
+        "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+        "token_uri": "https://oauth2.googleapis.com/token",
+        "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+        "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-i9zjv%40movo-2024.iam.gserviceaccount.com",
+        "universe_domain": "googleapis.com"
+        }</entry>
+
+</properties>
